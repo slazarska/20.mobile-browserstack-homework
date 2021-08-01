@@ -34,7 +34,6 @@ public class TestBase {
         String sessionId = getSessionId();
         Attach.screenshotAs("Last screenshot");
         Attach.pageSource();
-//        Attach.browserConsoleLogs();
         closeWebDriver();
         Attach.attachVideo(sessionId);
     }
